@@ -138,5 +138,8 @@
     "*.{css,js,json}": [
       "git add"
     ]
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
