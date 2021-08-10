@@ -1,5 +1,5 @@
 {
-  "name": "@mpes/react-prosemirror",
+  "name": "@MP-ES/react-prosemirror",
   "version": "1.7.4",
   "subversion": "2",
   "description": "rich text editor built with React and ProseMirror",
