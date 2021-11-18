@@ -36,7 +36,7 @@
   --czi-content-font-size-h1: 18px;
   --czi-content-font-size-h2: 16px;
   --czi-content-font-size-h3: 13px;
-  --czi-content-font-size: 11pt;
+  --czi-content-font-size: 12pt;
 
   /* This maps to the default line spacing value of 1.5 in Google Doc */
   --czi-content-line-height: 138%;
