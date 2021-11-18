@@ -12,8 +12,8 @@ export const FONT_TYPE_NAMES = [
   //'Arial Black',
   //'Georgia',
   //'Tahoma',
-  //'Times New Roman',
-  'Times',
+  'Times New Roman',
+  // 'Times',
   //'Verdana',
   // MONOSPACE
   'Courier New',

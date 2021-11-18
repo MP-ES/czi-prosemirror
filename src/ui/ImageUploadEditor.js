@@ -35,19 +35,19 @@ class ImageUploadEditor extends React.PureComponent<any, any, any> {
   render(): React.Element<any> {
     const {id, error, pending} = this.state;
     const className = cx('czi-image-upload-editor', {pending, error});
-    let label = 'Choose an image file...';
+    let label = 'Escolha uma imagem...';
 
     if (pending) {
       label = <LoadingIndicator />;
     } else if (error) {
-      label = 'Something went wrong, please try again';
+      label = 'Algo não saiu como esperado, por favor tente novamente';
     }
 
     return (
       <div className={className}>
         <form className="czi-form" onSubmit={preventEventDefault}>
           <fieldset>
-            <legend>Upload Image</legend>
+            <legend>Envio da imagem</legend>
             <div className="czi-image-upload-editor-body">
               <div className="czi-image-upload-editor-label">{label}</div>
               <input
