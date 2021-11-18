@@ -6,7 +6,7 @@ import {MARK_FONT_TYPE} from '../MarkNames';
 import findActiveMark from '../findActiveMark';
 
 // This should map to `--czi-content-font-size` at `czi-editor.css`.
-export const FONT_TYPE_NAME_DEFAULT = 'Arial';
+export const FONT_TYPE_NAME_DEFAULT = 'Times New Roman';
 
 export default function findActiveFontType(state: EditorState): string {
   const {schema, doc, selection, tr} = state;
